@@ -6,7 +6,10 @@ export function Job() {
       id="container"
       className="flex text-center gap-4 justify-center align-middle items-center my-2"
     >
-      <input type="checkbox" />
+      <input
+        type="checkbox"
+        className="bg-black w-5 rounded-sm border-green-500 hover:bg-slate-400"
+      />
       <div id="nama_job" className=" w-6/12 text-black bg-cyan-300">
         job nomor 1
       </div>

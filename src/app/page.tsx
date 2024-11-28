@@ -9,7 +9,7 @@ export default function Home() {
       <div id="header">
         <Header />
       </div>
-      <div id="job">
+      <div id="job" className="">
         <Job />
         <Job />
         <Job />
