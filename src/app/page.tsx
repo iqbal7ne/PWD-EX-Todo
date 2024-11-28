@@ -1,15 +1,14 @@
-import { Footer } from "@/component/footer";
-import { Header } from "@/component/header";
-import { Job } from "@/component/job";
-import Image from "next/image";
+import { Footer } from '@/component/footer';
+import { Header } from '@/component/header';
+import { Job } from '@/component/job';
 
 export default function Home() {
   return (
-    <div id="page">
-      <div id="header">
+    <div id='page'>
+      <div id='header'>
         <Header />
       </div>
-      <div id="job" className="">
+      <div id='job' className=''>
         <Job />
         <Job />
         <Job />
@@ -18,7 +17,7 @@ export default function Home() {
         <Job />
       </div>
       <hr></hr>
-      <div id="footer">
+      <div id='footer'>
         <Footer />
       </div>
     </div>
