@@ -1,1 +1,2 @@
 untuk menuliskan html special char, bisa menggunakan char codenya dengan tambahan titik koma di belakang nya.
+coba ganti nama repo menjadi huruf kecil semua agar tidak error di next js
